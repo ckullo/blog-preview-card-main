@@ -6,7 +6,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Figtree', Arial, sans-serif;
     background-color: #f2c849;
     display: flex;
     justify-content: center;
@@ -15,6 +15,10 @@
     padding: 20px;
   }
   
+  p {
+    font-size: 16px;
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -40,12 +44,13 @@
   }
   
   .card-content {
+    font-family: 'Figtree', Arial, sans-serif;
     padding: 20px 0;
   }
   
   .badge {
-    background-color: #ffc107;
-    color: white;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 100%);
     font-size: 12px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,12 +66,15 @@
   }
   
   .card-content p {
-    color: #555;
+    color: hsl(0, 0%, 42%);
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
   
+  .card-content p.date{
+    color: hsl(0, 0%, 7%);
+  }
   .author {
     display: flex;
     align-items: center;
@@ -109,3 +117,38 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 375px) {
+    body {
+      padding: 10px;
+    }
+  
+    .card {
+      max-width: 100%; /* Full width on small screens */
+      padding: 10px;
+    }
+  
+    .card-content h2 {
+      font-size: 16px;
+    }
+  
+    .card-content p {
+      font-size: 12px;
+    }
+  
+    .badge {
+      font-size: 10px;
+    }
+  
+    .author img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .author-info {
+      font-size: 11px;
+    }
+  
+    .attribution {
+      font-size: 10px;
+    }
+  }

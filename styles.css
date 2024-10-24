@@ -11,12 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
   }
   
   p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   main {
@@ -51,7 +51,7 @@
   .badge {
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,14 +61,14 @@
   }
   
   .card-content h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
   .card-content p {
     color: hsl(0, 0%, 42%);
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.5;
     margin-bottom: 10px;
   }
@@ -91,7 +91,7 @@
   }
   
   .author-info {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   
   .author-info p {
@@ -104,7 +104,7 @@
   
   /* Attribution (Footer) Section */
   .attribution {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #333;
     text-align: center;
   }
@@ -130,15 +130,15 @@
     }
   
     .card-content h2 {
-      font-size: 16px;
+      font-size: 1rem;
     }
   
     .card-content p {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
   
     .badge {
-      font-size: 10px;
+      font-size: 0.625rem;
     }
   
     .author img {
@@ -147,10 +147,10 @@
     }
   
     .author-info {
-      font-size: 11px;
+      font-size: 0.688rem;
     }
   
     .attribution {
-      font-size: 10px;
+      font-size: 0.625rem;
     }
   }
